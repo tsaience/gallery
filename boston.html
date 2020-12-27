@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <title>boston - tsaience</title>
+        <!--Meta-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!--Page Card for SEO-->
+        <meta property="og:title" content="ART. Simple Clean Blog HTML5 Template" />
+        <meta property="og:description" content="ART. Gallery &amp; Portfolio HTML5 Template for Creatives, Artist. Minimal, Morden, designed by SeaTheme" />
+        <meta property="og:url" content="https://html5.seatheme.net/art/entry/" />
+        <meta property="og:site_name" content="ART. Simple Clean Blog HTML5 Template Live Demo Site" />
+        <meta property="og:image" content="https://html5.seatheme.net/art/art-cover.jpg" />
+    	<meta name="twitter:card" content="ART. Simple Clean Blog HTML5 Template, designed by SeaTheme" />
+        <meta name="twitter:title" content="ART. Simple Clean Blog HTML5 Template Live Demo Site" />
+        <meta name="twitter:site" content="@Sea_Theme" />
+        <meta name="twitter:image" content="https://html5.seatheme.net/art/art-cover.jpg" />
+
+        <!-- Favicon -->
+        <link rel="icon" href="img/favicon.jpg" sizes="32x32" />
+        <link rel="icon" href="img/favicon.jpg" sizes="192x192" />
+        <link rel="apple-touch-icon" href="img/favicon.jpg" />
+        <meta name="msapplication-TileImage" content="img/favicon.jpg" />
+
+        <!-- Bootstrap CSS -->
+        <link rel='stylesheet' href='css/bootstrap.css' type='text/css' media='screen' />
+
+        <!-- Owl Carousel Plugin CSS -->
+        <link rel='stylesheet' href='css/owl.carousel.css' type='text/css' media='screen' />
+
+        <!-- IconFont CSS -->
+        <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='screen' />
+
+        <!-- Lightbox Plugin CSS -->
+        <link rel='stylesheet' href='css/photoswipe.css' type='text/css' media='screen' />
+
+        <!-- Lightbox Plugin Skin CSS -->
+        <link rel='stylesheet' href='css/skin/photoswipe/default/default-skin.css' type='text/css' media='screen' />
+
+         <!-- BM builder CSS -->
+        <link rel='stylesheet' href='css/modules-style.css' type='text/css' media='screen' />
+
+        <!-- Single Portolio CSS -->
+        <link rel='stylesheet' href='css/post-portfolio.css' type='text/css' media='screen' />
+
+        <!-- Menu icon & Header icon CSS -->
+        <link rel='stylesheet' href='css/menuicon-default.css' type='text/css' media='screen' />
+        <link rel='stylesheet' href='css/headericon-default.css' type='text/css' media='screen' />
+
+        <!-- Art Theme Main CSS -->
+        <link rel='stylesheet' href='css/style.css' type='text/css' media='screen' />
+
+        <!--Custom style CSS -->
+        <link rel="stylesheet" href="css/custom.css" type="text/css" media='screen'>
+
+        <script>
+            var photoSwipeLocalize = [];photoSwipeLocalize.push({id:"facebook", label:"Share on Facebook", url:"https://www.facebook.com/sharer/sharer.php?u={{url}}"});photoSwipeLocalize.push({id:"twitter", label:"Tweet", url:"https://twitter.com/intent/tweet?text={{text}}&url={{url}}"});photoSwipeLocalize.push({id:"pinterest", label:"Pin it", url:"http://www.pinterest.com/pin/create/button/"+ "?url={{url}}&media={{image_url}}&description={{text}}"});photoSwipeLocalize.push({id:"download", label:"Download image", url:"{{raw_image_url}}", download:true});
+            var isFilterClick = false;
+            var UxCBModGlobal = [];
+            var UxCBModGlobalAjax = "false";
+            var ajaxurl = "";
+            var JS_PATH = "/js/"
+        </script>
+
+        <style id='module-style-inline-css' type='text/css'>      
+            body { 
+                --header-height: 320px; /* Header height */ 
+                --logo-height: 80px; /* Logo on header */
+                --header-height-mobile: 140px; /* Header height Mobile */ 
+                --logo-height-m: 50px; /* Logo on header */
+            }
+            @media (max-width:767px) { 
+                .responsive-ux.logo-centered-mobile .navi-logo {
+                    margin-bottom: 0px;
+                }
+            }
+        </style>
+
+	</head>
+  
+    <body class="page pswp-dark-skin responsive-ux navi-show navi-show-center logo-centered-mobile menu_hover_default default-logo default-menu default-logo-menu-expand default-logo-menu-mobile">
+
+        <div class="wrap-all">
+
+            <!--Audio Player-->
+            <div id="jquery_jplayer" class="jp-jplayer"></div>
+
+            <!--Main wrap-->
+            <div id="wrap-outer">
+
+                <!--Header-->
+                <header id="header" class=" " data-scroll="0">
+
+                    <div id="header-main" class="header-main container-fluid"> 
+
+                        <!-- Logo -->
+                        <div class="navi-logo">
+
+                            <div class="logo-wrap">
+                                <div class="logo " id="logo">
+                                   <a class="logo-a" href="#" title="ART">
+                                    <span class="logo-text">boston</span>
+                                </a>
+                                </div>    
+                            </div><!--End logo wrap-->
+
+                        </div><!--End navi-logo-->
+
+                        <!--Menu on header
+                        <div class="head-meta">-->
+
+                            <!--Navigation-->
+                            <!-- <nav id="navi-header" class="navi-header">
+                                <div id="navi_wrap" class="menu-main-container">
+                                    <ul class="menu clearfix">
+                                        <li class="menu-item"><a href="index.html">Works</a></li>
+                                        <li class="menu-item"><a href="music.html">Blog</a></li> 
+                                        <li class="menu-item"><a href="page-info.html">Info</a></li>
+                                    </ul>
+                                </div>
+                            </nav> --> 
+                        
+                        <!--</div>  End head-meta-->
+
+                    </div><!--End head-main--> 
+                    
+                </header>
+
+                <!--Expanded Menu Panel-->
+                <div id="menu-panel" class="menu-panel menu-panel-align-center menu-panel-bottom-layout-b">
+
+                    <div class="menu-panel-inn container-fluid">
+                     
+                        <nav id="navi" class="navi">
+
+                            <div id="navi-wrap">
+
+                                <ul class="menu clearfix">
+                                    <li class="menu-item"><a href="index.html">Works</a></li>
+                                    <li class="menu-item"><a href="music.html">Blog</a></li> 
+                                    <li class="menu-item"><a href="page-info.html">Info</a></li>
+                                </ul>
+
+                            </div><!--End #navi_wrap-->
+                        </nav>
+
+                        <div id="menu-panel-bottom" class="menu-panel-bottom container-fluid ">
+
+                            <div class="menu-panel-bottom-left col-md-6 col-sm-6 col-xs-6">
+
+                                <div class="menu-panel-text middle-ux">
+                                Designed by <a href="https://www.seatheme.net/">SeaTheme</a>
+                                </div>
+
+                            </div><!--End menu-panel-bottom-left-->
+
+                            <div class="menu-panel-bottom-right col-md-6 col-sm-6 col-xs-6">
+
+                                <section class="">
+            
+                                    <ul class="socialmeida clearfix">                       
+                                
+                                        <li class="socialmeida-li">
+                                            <a title="" href="https://twitter.com/Sea_Theme" class="socialmeida-a" rel="nofollow ">
+                                                <span class="fa fa-twitter"></span> </a>
+                                        </li>
+                                                
+                                        <li class="socialmeida-li">
+                                            <a title="" href="https://www.facebook.com/Uiueux/" class="socialmeida-a" rel="nofollow ">
+                                                <span class="fa fa-facebook"></span> </a>
+                                        </li>
+                                                
+                                        <li class="socialmeida-li">
+                                            <a title="" href="https://www.behance.net/bwsm" class="socialmeida-a" rel="nofollow ">
+                                                <span class="fa fa-behance"></span> </a>
+                                        </li>
+                                                
+                                       <!--  <li class="socialmeida-li">
+                                            <a title="" href="" class="socialmeida-a" rel="nofollow ">
+                                                <span class="fa fa-linkedin"></span> </a>
+                                        </li>
+                                                
+                                        <li class="socialmeida-li">
+                                            <a title="" href="" class="socialmeida-a" rel="nofollow ">
+                                                <span class="fa fa-youtube"></span> </a>
+                                        </li>
+                                                
+                                        <li class="socialmeida-li">
+                                            <a title="" href="" class="socialmeida-a" rel="nofollow ">
+                                                <span class="fa fa-flickr"></span> </a>
+                                        </li> -->
+                                    </ul>
+            
+                                </section>
+
+                            </div><!--End menu-panel-bottom-right-->
+
+                        </div><!--End #menu-panel-bottom-->
+
+                    </div>
+
+                </div><!--End #menu-panel-->
+
+    			
+                <!-- Main Content Wrap -->
+        		<div id="wrap"> 
+
+                    <!-- Main Content : portfolio, text content ... -->
+        	        <div id="content">
+						<div id="post-1544" class="post-1544 page type-page status-publish hentry">
+							<div class="content_wrap_outer fullwrap-layout">
+								<div id="content_wrap" class="">
+									<div class="entry container-fluid container-class">
+										
+                                        <!--BM Builder-->
+                                        <div class="bm-builder clearfix ">
+
+                                            <!--Group module-->
+											<div id="" class="module col-12 module-id-1570868696557 bm-wrap row-top row-center" data-module-col="12" data-change-color="off" data-goto-top-spacing="0" data-groupsameheight="off">
+												<div class="module-inside ">
+													 
+                                                    <!--Masonry Grid module--> 
+													<div id="" class="module col-10 module-id-1570858388705 col-offset-0" data-module-col="10">
+														<div class="module-inside " style="--spacing-masonrygrid-m:20px; --margin-bottom-mod-m:0px;">
+
+															<div class="ux-portfolio-full bm-masonry-grid">
+																<div class="grid-stack grid-stack-1570858388705 lightbox-photoswipe grid-stack-origin-layout-mobile grid-text-center hidden" data-spacing="60" data-spacing-mobile="20" data-item-style="image" data-number="999">
+
+                                                                    <!--Masonry grid item-->
+																	<div class="grid-stack-item sea-grid-item mouseover-no-effect " data-postid="6562" data-gs-x="0" data-gs-y="0" data-gs-width="24" data-gs-height="16">
+																		<div class="grid-stack-item-content">
+																			<div class="grid-item-inside  " data-lightbox="true" data-animationend="fadeined">
+																				
+																				<div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.666666666667%;">
+																					<img src="img/boston/snow.jpg" data-xx="24" alt="" class="grid-item-img ux-background-img-1st lazy">
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+
+                                                                    <!--Masonry grid item-->
+																	<div class="grid-stack-item sea-grid-item mouseover-no-effect " data-postid="6561" data-gs-x="0" data-gs-y="30" data-gs-width="12" data-gs-height="14">
+																		<div class="grid-stack-item-content">
+																			<div class="grid-item-inside  " data-lightbox="true" data-animationend="fadeined">
+																				
+																				<div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.666666666667%;">
+																					<img src="img/boston/jcho2.jpg" data-xx="24" alt="" class="grid-item-img ux-background-img-1st lazy">
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+
+                                                                     <!--Masonry grid item-->
+                                                                    <div class="grid-stack-item sea-grid-item mouseover-no-effect " data-postid="6561" data-gs-x="12" data-gs-y="30" data-gs-width="12" data-gs-height="14">
+                                                                        <div class="grid-stack-item-content">
+                                                                            <div class="grid-item-inside  " data-lightbox="true" data-animationend="fadeined">
+                                                                               
+                                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.666666666667%;">
+                                                                                    <img src="img/boston/jcho3.jpg" data-xx="24" alt="" class="grid-item-img ux-background-img-1st lazy">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <!--Masonry grid item-->
+                                                                    <div class="grid-stack-item sea-grid-item mouseover-no-effect " data-postid="6566" data-gs-x="0" data-gs-y="16" data-gs-width="24" data-gs-height="14">
+                                                                        <div class="grid-stack-item-content">
+                                                                            <div class="grid-item-inside  " data-lightbox="true" data-animationend="fadeined">
+                                                                                
+                                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.666666666667%;">
+                                                                                    <img src="img/boston/jcho4.jpg" data-xx="24" alt="" class="grid-item-img ux-background-img-1st lazy">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                     <!--Masonry grid item-->
+                                                                    <div class="grid-stack-item sea-grid-item mouseover-no-effect " data-postid="6566" data-gs-x="0" data-gs-y="44" data-gs-width="24" data-gs-height="14">
+                                                                        <div class="grid-stack-item-content">
+                                                                            <div class="grid-item-inside  " data-lightbox="true" data-animationend="fadeined">
+                                                                               
+                                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.666666666667%;">
+                                                                                    <img src="img/boston/DSCF8554-2.jpg" data-xx="24" alt="" class="grid-item-img ux-background-img-1st lazy">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                     <!--Masonry grid item-->
+                                                                    <div class="grid-stack-item sea-grid-item mouseover-no-effect " data-postid="6561" data-gs-x="0" data-gs-y="58" data-gs-width="12" data-gs-height="14">
+                                                                        <div class="grid-stack-item-content">
+                                                                            <div class="grid-item-inside  " data-lightbox="true" data-animationend="fadeined">
+                                                                                
+                                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.666666666667%;">
+                                                                                    <img src="img/boston/DSCF8543.jpg" data-xx="24" alt="" class="grid-item-img ux-background-img-1st lazy">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                     <!--Masonry grid item-->
+                                                                    <div class="grid-stack-item sea-grid-item mouseover-no-effect " data-postid="6561" data-gs-x="12" data-gs-y="58" data-gs-width="12" data-gs-height="14">
+                                                                        <div class="grid-stack-item-content">
+                                                                            <div class="grid-item-inside  " data-lightbox="true" data-animationend="fadeined">
+                                                                               
+                                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.666666666667%;">
+                                                                                    <img src="img/boston/DSCF8560.jpg" data-xx="24" alt="" class="grid-item-img ux-background-img-1st lazy">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+																</div>
+															</div>
+														</div><!--End module-inside-->
+													</div><!--End module-->
+
+												</div><!--End module-inside-->
+											</div><!--End module bm-wrap-->
+
+										</div><!--End bm-builder-->
+										<div class="clear"></div>
+
+									</div><!--End entry-->
+								</div><!--End content_wrap-->
+							</div><!--End content_wrap_outer-->
+						</div><!--end #postID-->
+                    </div><!--End #content-->
+
+                    <!-- Footer -->
+                    <footer id="footer" class="footer-cols-layout footer-cols-layout-mobile">
+
+                        <div class="footer-info footer-horizon-center footer-horizon-left-mobile" style="padding-top:100px; padding-bottom:100px; --padding-topbottom-footer:40px; ">
+                            
+                            <div class="container-fluid">
+
+                                <div class="footer-cols-item footer-cols-item-mobile" style="--hspacing-social-items-foot:55px; --hspacing-social-items-foot-m:12px; ">
+
+                                    <div class="footer-social">
+                                        <ul class="socialmeida clearfix">
+                                                        
+                                            <li class="socialmeida-li">
+                                                <a title="Tw." href="music.html" class="socialmeida-a" rel="nofollow ">
+                                                    <span class="socialmeida-text">music</span>
+                                                </a>
+                                            </li>
+                                                        
+                                            <li class="socialmeida-li">
+                                                <a title="In." href="home-photo-gallery.html" class="socialmeida-a" rel="nofollow ">
+                                                    <span class="socialmeida-text">photography</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+                </div><!--End #wrap -->
+    	  
+            </div><!--End #wrap-outer-->
+
+            <!-- Lightbox -->
+            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+                <div class="pswp__bg"></div>
+
+                <div class="pswp__scroll-wrap">
+
+                    <div class="pswp__container">
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                    </div>
+
+                    <div class="pswp__ui pswp__ui--hidden">
+
+                        <div class="pswp__top-bar">
+
+                            <div class="pswp__counter"></div>
+                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                            <button class="pswp__button pswp__button--share" title="Share"></button>
+                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                            <div class="pswp__preloader">
+                                <div class="pswp__preloader__icn">
+                                  <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                            <div class="pswp__share-tooltip"></div> 
+                        </div>
+
+                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                        </button>
+                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                        </button>
+
+                        <div class="pswp__caption">
+                            <div class="pswp__caption__center"></div>
+                        </div>
+
+                    </div>
+
+                </div><!--End pswp__scroll-wrap-->
+
+            </div><!--End pswp-->
+
+        </div><!--End wrap-all-->
+        
+        <div id="get-scroll-width"></div>
+
+        <!-- jQuery Library -->
+        <script src='js/library/jquery.min.js'></script>
+        <!-- Underscore -->
+        <script src='js/underscore.min.js'></script>
+        <!-- Modernizr -->
+        <script src='js/modernizr-custom.js'></script>
+        <!-- Waypoints Plugin -->
+        <script src='js/jquery.waypoints.min.js'></script>
+        <!-- ImageLoaded Plugin-->
+        <script src='js/imagesloaded.pkgd.min.js'></script>
+        <!-- isotope Plugin -->
+        <script src='js/isotope.pkgd.min.js'></script>
+        <!-- Packery layout mode -->
+        <script src='js/packery-mode.pkgd.min.js'></script>
+        <!-- Photoswipe Plugin -->
+        <script src='js/photoswipe.min.js'></script>
+        <!-- Photoswipe Plugin UI -->
+        <script src='js/photoswipe-ui-default.min.js'></script>
+        <!-- OWL Carousel Plugin -->
+        <script src='js/owl.carousel.min.js'></script>
+        <!-- Lazy Load Plugin-->
+        <script src='js/lazyload.min.js'></script>
+        <!-- jplayer Plugin -->
+        <script src='js/jquery.jplayer.min.js'></script>
+        <!-- Modules Global js-->
+        <script src='js/modules-global.js'></script>
+        <!-- Text Module js-->
+        <script src='js/mod/text.js'></script>
+        <!-- Single Image Module js-->
+        <script src='js/mod/single-image.js'></script>
+        <!-- Slide Module js-->
+        <script src='js/mod/slider.js'></script>
+        <!-- Grid Module js-->
+        <script src='js/mod/grid.js'></script>
+        <!-- Masonry Grid Module js-->
+        <script src='js/mod/masonry-grid.js'></script>
+        <!-- Embed Module js-->
+        <script src='js/mod/embed.js'></script>
+        <!-- Contact Form Module js-->
+        <script src='js/mod/contact-form.js'></script>
+        <!-- Single Portfolio js -->
+        <script src='js/portfolio-2col.js'></script>
+        <!-- Theme main js -->
+        <script src='js/custom.theme.js'></script>
+
+    </body>
+</html>
